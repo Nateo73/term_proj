@@ -1,4 +1,6 @@
 import csv
+from pprint import pprint
+
 
 
 # Each row in the pupils.csv file contains three elements.
@@ -43,6 +45,6 @@ def read_compound_list(filename):
     return compound_list
 def print_list(compound_list):
   for i in compound_list:
-    print (i)
+    pprint (i)
 
 main()
