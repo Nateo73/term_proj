@@ -3,12 +3,9 @@ import csv
 
 # Each row in the pupils.csv file contains three elements.
 # These are the indexes of the elements in each row.
-GIVEN_NAME_INDEX = 0
-SURNAME_INDEX = 1
-BIRTHDATE_INDEX = 2
 
 def main():
-  students_list = read_compound_list("pupils.csv")
+  students_list = read_compound_list("")
   print_list(students_list)
   student_b_day = list(map(lambda bday: bday[BIRTHDATE_INDEX], students_list))
   sort_students = sorted(student_b_day)
