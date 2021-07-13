@@ -5,13 +5,10 @@ import csv
 # These are the indexes of the elements in each row.
 
 def main():
-  students_list = read_compound_list("")
-  print_list(students_list)
-  student_b_day = list(map(lambda bday: bday[BIRTHDATE_INDEX], students_list))
-  sort_students = sorted(student_b_day)
-  print(sort_students)
-  print_list(sort_students)
-  #print(student_b_day)
+  mow_areas = read_compound_list("mow_area.csv")
+  print_list(mow_areas)
+  
+  
 
 def read_compound_list(filename):
     """Read the text from a CSV file into a compound list.
