@@ -8,7 +8,8 @@ from pprint import pprint
 
 def main():
   mow_areas = read_compound_list("mow_area.csv")
-  print_list(mow_areas)
+  print(mow_areas)
+  #print_list(mow_areas)
   
   
 
@@ -45,6 +46,6 @@ def read_compound_list(filename):
     return compound_list
 def print_list(compound_list):
   for i in compound_list:
-    pprint (i)
+    print (i)
 
 main()
