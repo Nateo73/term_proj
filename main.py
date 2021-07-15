@@ -14,13 +14,16 @@ BRIGADE_INDEX = 8
 def main():
   mow_areas = read_compound_list("mow_area.csv")
   print_list(mow_areas)
-  id = lambda oid: oid[0]
-  id_sorted = sorted(mow_areas, key=id)
+  #id = lambda oid: oid[0]
+  acre = lambda acarea: acarea[AREA_SIZE_INDEX]
+  id_sorted = sorted(mow_areas, key=acre)
+
   for i in id_sorted:
-        print (i)
-  acres_in_total = create_acre_list(mow_areas)
-  for j in acres_in_total:
-        print (j)
+        print (i[4])
+  acres_list = create_acre_list(mow_areas)
+  total_acres = sum(acres_list)
+
+  print (total_acres)
   
 
 def read_compound_list(filename):
@@ -60,13 +63,16 @@ def print_list(compound_list):
 def create_acre_list(compound_list):
       
       acres= []
+      float_acres=[]
       acre = lambda acarea: acarea[AREA_SIZE_INDEX]
+      a_sorted = sorted(compound_list,key=acre)
       
-     
-      acres.append(acre)
+      for a in a_sorted:     
+        acres.append(a[4])
+      for item in acres:
+            float_acres.append(float(item))
       
 
-
-
-      return acres
+      
+      return float_acres
 main()

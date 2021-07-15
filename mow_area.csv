@@ -1262,7 +1262,6 @@ OBJECTID,maint_id,grnd_name,grnd_desc,area_size,Responsibility,ResponsibilityAO,
 1269,RILEY15892,Custer Hill Troop,PW-D,0.293827729,Troop,7888,2 BDE
 1270,RILEY17441,Custer Hill Troop,PW-14 Day,0.093086321,Troop,7888,2 BDE
 1271,RILEY15905,Custer Hill Troop,NO MOW,0.531321461,NO MOW,,
-1272,RILEY17464,Custer Hill Troop,Type-B,1.80E-06,PWKevin,,
 1273,RILEY15730,Custer Hill Troop,PW-14 Day,0.744264779,PWKevin,,
 1274,,Custer Hill Troop,Type-B,5.936237789,PWKevin,,
 1275,,Custer Hill Troop,Type-B,2.235626893,PWKevin,,
@@ -1810,7 +1809,6 @@ OBJECTID,maint_id,grnd_name,grnd_desc,area_size,Responsibility,ResponsibilityAO,
 1818,,Custer Hill Troop,PW-14 Day,0.056612254,Troop,7636,2 BDE
 1819,,Custer Hill Troop,PW-14 Day,0.20009918,Troop,7640,2 BDE
 1820,,Custer Hill Troop,PW-14 Day,0.012188822,Troop,7636,2 BDE
-1821,,Custer Hill Troop,PW-14 Day,9.26E-05,PWKevin,,
 1822,,Custer Hill Troop,PW-14 Day,0.034632937,Troop,7636,2 BDE
 1823,,Custer Hill Troop,PW-14 Day,0.216730429,Troop,7626,2 BDE
 1824,,Custer Hill Troop,PW-14 Day,0.028067385,Troop,7626,2 BDE
@@ -5058,8 +5056,6 @@ OBJECTID,maint_id,grnd_name,grnd_desc,area_size,Responsibility,ResponsibilityAO,
 5287,RILEY22091,Main Post,Type-A,0.000739894,PWKevin,,
 5288,RILEY22093,Main Post,Type-A,0.000881142,PWKevin,,
 5289,RILEY22096,Main Post,Type-A,0.001211423,PWKevin,,
-5290,RILEY22099,Main Post,Type-A,4.13E-05,PWKevin,,
-5291,RILEY22100,Main Post,Type-A,4.55E-05,PWKevin,,
 5292,RILEY22101,Main Post,Type-B,0.081611304,PWKevin,,
 5293,RILEY22102,Main Post,Type-B,0.003628717,PWKevin,,
 5294,RILEY22104,Main Post,Type-B,0.011667014,PWKevin,,
@@ -5570,7 +5566,6 @@ OBJECTID,maint_id,grnd_name,grnd_desc,area_size,Responsibility,ResponsibilityAO,
 5868,,Camp Forsyth,PW-14 Day Pasture,1.027427588,PWKevin,,
 5869,RILEY22334,Camp Forsyth,PW-D,0.977421096,PWKevin,,
 5870,RILEY14437,Main Post,FRUS,3.269531137,FRUS,,
-5871,,,PW-14 Day,,PWKevin,,
 5872,RILEY14394,Main Post,PW-14 Day,2.515990628,PWKevin,,
 5873,RILEY14438,Main Post,PW-D,11.68884923,PWKevin,,
 5874,RILEY14438,Main Post,PW-D,11.68884923,PWKevin,,
@@ -5596,8 +5591,6 @@ OBJECTID,maint_id,grnd_name,grnd_desc,area_size,Responsibility,ResponsibilityAO,
 5898,RILEY15013,Custer Hill Beddown,PW-14 Day,1.054479641,Troop,8610,1 BDE
 5899,RILEY14948,Custer Hill Beddown,PW-14 Day,0.336268775,Troop,8710,1 BDE
 5901,RILEY15342,Custer Hill Troop,PW-14 Day,1.56102449,Troop,7006,1 BDE
-5902,,,,,PWKevin,,
-5903,,,,,PWKevin,,
 5904,,Custer Hill Troop,PW-14 Day,0.041985041,Troop,7614,2 BDE
 5908,,Custer Hill Troop,PW-14 Day,0.027418213,Troop,7613,2 BDE
 5909,,,,0.062115982,Troop,7645,2 BDE
