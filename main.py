@@ -1,16 +1,26 @@
 import csv
 from pprint import pprint
-
-
+OBJECT_ID_INDEX = 0
+MAINT_ID_INDEX = 1
+GROUND_NAME_INDEX = 2
+AREA_SIZE_INDEX = 3
+RESPONSIBLITY_INDEX = 4
+AO_INDEX = 5
+BRIGADE_INDEX = 8
 
 # Each row in the pupils.csv file contains three elements.
 # These are the indexes of the elements in each row.
 
 def main():
   mow_areas = read_compound_list("mow_area.csv")
-  print(mow_areas)
-  #print_list(mow_areas)
-  
+  print_list(mow_areas)
+  id = lambda oid: oid[0]
+  id_sorted = sorted(mow_areas, key=id)
+  for i in id_sorted:
+        print (i)
+  acres_in_total = create_acre_list(mow_areas)
+  for j in acres_in_total:
+        print (j)
   
 
 def read_compound_list(filename):
@@ -47,5 +57,16 @@ def read_compound_list(filename):
 def print_list(compound_list):
   for i in compound_list:
     print (i)
+def create_acre_list(compound_list):
+      
+      acres= []
+      acre = lambda acarea: acarea[AREA_SIZE_INDEX]
+      
+     
+      acres.append(acre)
+      
 
+
+
+      return acres
 main()
