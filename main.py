@@ -14,7 +14,8 @@ BRIGADE_INDEX = 8
 def main():
   mow_areas = read_compound_list("mow_area.csv")
   print_list(mow_areas)
-  #id = lambda oid: oid[0]
+  responsiability = lambda respo: respo[RESPONSIBLITY_INDEX]
+  print (responsiability)
   acre = lambda acarea: acarea[AREA_SIZE_INDEX]
   id_sorted = sorted(mow_areas, key=acre)
 
@@ -71,8 +72,5 @@ def create_acre_list(compound_list):
         acres.append(a[4])
       for item in acres:
             float_acres.append(float(item))
-      
-
-      
       return float_acres
 main()
